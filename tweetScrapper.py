@@ -7,11 +7,11 @@ import argparse
 
 from google.cloud import language
 
-CONSUMER_API_KEY = 'hTTAZaDzlEI1DBRMxZveZZo4u'
-CONSUMER_API_KEY_SECRET = 'T128r6tfAheQaE2FlJHy40z05Jbtj0kMuHgmP1VxaQiCDIMyru'
+CONSUMER_API_KEY = ''
+CONSUMER_API_KEY_SECRET = ''
 
-TOKEN_KEY = '113699063-3CvqvLNgloQCRi3Fh0xbuOmDquAs4A8BNj5gpvSX'
-TOKEN_KEY_SECRET ='Lt9Way7b6RVuEIHi7Qcon7tGWfxeef4FImwX6Y5o6U36W'
+TOKEN_KEY = ''
+TOKEN_KEY_SECRET =''
 
 conn = sqlite3.connect('Madridtweets.db')
 
